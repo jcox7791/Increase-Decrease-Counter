@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(to right, green, whitesmoke, orange);
+}
+
+header {
+  grid-area: sec;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: sec_title;
+  text-align: center;
+}
+@keyframes sec_title {
+  20% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+}
+h1 {
+  font-family: segoe script;
+  font-size: 80px !important;
+  text-shadow: 5px 5px 8px rgb(255, 60, 0);
+}
+main {
+  background-color: rgba(0, 0, 0, 0.582);
+  border-style: double;
+  border-color: rgb(255, 60, 0);
+  color: whitesmoke;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 600px;
+  margin-left: 600px;
+  padding-bottom: 15px;
+}
+#increase,
+#reset,
+#decrease {
+  font-size: 50px
+}
